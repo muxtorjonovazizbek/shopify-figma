@@ -1,0 +1,27 @@
+.grow {
+    margin-top: 40px;
+    h1 {
+        font-weight: 400;
+        font-size: clamp(25px, 4vw, 36px);
+        text-align: center;
+    }
+    p {
+        font-weight: 400;
+        font-size: clamp(16px, 4vw, 20px);
+        text-align: center;
+    }
+    .btn__cover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        padding: 15px;
+        .btn {  
+            padding: 15px; 
+            border-radius: 5px;
+            border: none;
+            background: #008060;
+            color: white;
+        }
+    }
+}
